@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="华中科技大学人工智能2501班级网站首页">
+  <title>AI2501班级小窝</title>
+
+  <!-- 页面图标：请替换为实际班徽图片地址 -->
+  <link rel="icon" href="images/班徽.png" type="image/png">
+
+  <!-- Fancybox 灯箱：用于电子相册图片放大预览 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
+
+  <header class="mobile-header" aria-label="移动端导航">
+    <div class="mobile-title">
+      <img src="images/班徽.png" alt="AI2501班徽">
+      <span>AI2501班级小窝</span>
+    </div>
+    <button class="menu-toggle" type="button" aria-label="打开导航菜单" aria-controls="site-sidebar" aria-expanded="false">
+      <span class="hamburger" aria-hidden="true"></span>
+    </button>
+  </header>
+
+  <div class="overlay" data-close-menu></div>
+
+  <div class="app-shell">
+    <aside class="sidebar" id="site-sidebar" aria-label="主导航">
+      <div class="brand">
+        <img src="images/班徽.png" alt="AI2501班徽">
+        <p class="brand-title">
+          AI2501班级小窝
+          <span class="brand-subtitle">HUST AIA 2501</span>
+        </p>
+      </div>
+
+      <nav>
+        <ul class="nav-list">
+          <li>
+            <button class="nav-button active" type="button" data-target="home" aria-current="page">
+              <span class="nav-icon" aria-hidden="true">首</span>
+              首页
+            </button>
+          </li>
+          <li>
+            <button class="nav-button" type="button" data-target="album">
+              <span class="nav-icon" aria-hidden="true">影</span>
+              电子相册
+            </button>
+          </li>
+          <li>
+            <button class="nav-button" type="button" data-target="calendar-section">
+              <span class="nav-icon" aria-hidden="true">历</span>
+              电子日历
+            </button>
+          </li>
+          <li>
+            <button class="nav-button" type="button" data-target="messages">
+              <span class="nav-icon" aria-hidden="true">言</span>
+              留言板
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="content" id="main-content" tabindex="-1">
+      <section class="section active" id="home" aria-labelledby="home-title">
+        <div class="section-inner">
+          <div class="card hero-card">
+            <div class="logo-row" aria-label="学院院徽与班徽">
+              <!-- 学院院徽：请替换为 images 文件夹中实际的学院院徽图片地址 -->
+              <img class="logo-item" src="images/院徽.png" alt="人工智能与自动化学院院徽">
+              <!-- 班徽：请替换为 images 文件夹中实际的班徽图片地址 -->
+              <img class="logo-item" src="images/班徽.png" alt="人工智能2501班班徽">
+            </div>
+            <p class="eyebrow">华中科技大学 · 人工智能与自动化学院</p>
+            <h1 id="home-title">人工智能2501班</h1>
+            <p class="lead">
+              这里记录我们从初识到并肩前行的每一个瞬间：课堂里的专注、实验室里的灵感、活动中的笑声，以及关于未来的热望。
+            </p>
+            <p class="motto">明德厚学，求是创新。</p>
+          </div>
+
+          <div class="section-heading">
+            <h2>班级风采</h2>
+            <p>用几张小卡片，先把 AI2501 的气质轻轻放在这里。</p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="card feature-card">
+              <div class="feature-icon" aria-hidden="true">AI</div>
+              <h3>探索智能前沿</h3>
+              <p>我们一起学习机器学习、自动化与工程实践，把好奇心落在真实问题上。</p>
+            </article>
+            <article class="card feature-card">
+              <div class="feature-icon" aria-hidden="true">研</div>
+              <h3>共同成长</h3>
+              <p>课程互助、竞赛组队、资料共享，每个人的进步都能成为班级的光。</p>
+            </article>
+            <article class="card feature-card">
+              <div class="feature-icon" aria-hidden="true">活</div>
+              <h3>丰富活动</h3>
+              <p>班会、团建、志愿服务和文体活动，把大学生活过得热烈又有温度。</p>
+            </article>
+            <article class="card feature-card">
+              <div class="feature-icon" aria-hidden="true">梦</div>
+              <h3>奔赴未来</h3>
+              <p>带着华科人的踏实与锋芒，在智能时代写下属于 AI2501 的答案。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="album" aria-labelledby="album-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">电子相册</p>
+            <h2 id="album-title">把同窗时光装进相册</h2>
+            <p>点击缩略图可放大查看。前两个相册已接入班级真实照片，其余示例图可继续替换。</p>
+          </div>
+
+          <div class="album-grid">
+            <a class="card album-card" href="images/%E7%8F%AD%E7%BA%A7%E7%9B%B8%E5%86%8C/%E4%B8%9C%E6%B9%96%E5%9B%A2%E5%BB%BA/11.16%E5%9B%A2%E5%BB%BA/NR8AVjViQ1FBNE9UVTBNREUzTlRNa2dSbHB0VkdYQ0EhIQUAcXVuZ3o!.jpeg" data-fancybox="donghu-album" data-caption="东湖团建">
+              <img src="images/%E7%8F%AD%E7%BA%A7%E7%9B%B8%E5%86%8C/%E4%B8%9C%E6%B9%96%E5%9B%A2%E5%BB%BA/11.16%E5%9B%A2%E5%BB%BA/NR8AVjViQ1FBNE9UVTBNREUzTlRNa2dSbHB0VkdYQ0EhIQUAcXVuZ3o!.jpeg" alt="东湖团建相册封面">
+              <div class="album-caption">
+                <h3>东湖团建</h3>
+                <p>共 48 张照片，记录 11.16 东湖团建的笑声和风景。</p>
+              </div>
+            </a>
+            <a class="card album-card" href="images/%E7%8F%AD%E7%BA%A7%E7%9B%B8%E5%86%8C/%E7%8F%AD%E4%BC%9A%E7%95%99%E5%BD%B1/26.3.18%E8%87%AA%E5%BC%BA%E4%B9%8B%E6%98%9F/NR8AVjViQ1FBNE9UVTBNREUzTlROd2ticHBwaVU0SmchIQUAcXVuZ3o!.jpeg" data-fancybox="meeting-album" data-caption="班会留影">
+              <img src="images/%E7%8F%AD%E7%BA%A7%E7%9B%B8%E5%86%8C/%E7%8F%AD%E4%BC%9A%E7%95%99%E5%BD%B1/26.3.18%E8%87%AA%E5%BC%BA%E4%B9%8B%E6%98%9F/NR8AVjViQ1FBNE9UVTBNREUzTlROd2ticHBwaVU0SmchIQUAcXVuZ3o!.jpeg" alt="班会留影相册封面">
+              <div class="album-caption">
+                <h3>班会留影</h3>
+                <p>共 7 张照片，留下班会现场与自强之星分享的瞬间。</p>
+              </div>
+            </a>
+            <a class="card album-card" href="https://picsum.photos/1200/900?random=3" data-fancybox="study-album" data-caption="课堂瞬间">
+              <img src="https://picsum.photos/400/300?random=3" alt="课堂瞬间示例照片">
+              <div class="album-caption">
+                <h3>课堂瞬间</h3>
+                <p>留给板书、讨论和专注眼神的位置，后续可替换为真实课堂照片。</p>
+              </div>
+            </a>
+            <a class="card album-card" href="https://picsum.photos/1200/900?random=4" data-fancybox="lab-album" data-caption="实验实践">
+              <img src="https://picsum.photos/400/300?random=4" alt="实验实践示例照片">
+              <div class="album-caption">
+                <h3>实验实践</h3>
+                <p>记录代码调试、项目展示和实验室里的灵感时刻。</p>
+              </div>
+            </a>
+            <a class="card album-card" href="https://picsum.photos/1200/900?random=5" data-fancybox="sports-album" data-caption="运动风采">
+              <img src="https://picsum.photos/400/300?random=5" alt="运动风采示例照片">
+              <div class="album-caption">
+                <h3>运动风采</h3>
+                <p>奔跑、呐喊、击掌，都是 AI2501 青春的节拍。</p>
+              </div>
+            </a>
+            <a class="card album-card" href="https://picsum.photos/1200/900?random=6" data-fancybox="campus-album" data-caption="校园剪影">
+              <img src="https://picsum.photos/400/300?random=6" alt="校园剪影示例照片">
+              <div class="album-caption">
+                <h3>校园剪影</h3>
+                <p>华科的路、树和光，也会成为我们的记忆坐标。</p>
+              </div>
+            </a>
+            <a class="card album-card" href="https://picsum.photos/1200/900?random=7" data-fancybox="group-album" data-caption="集体合照">
+              <img src="https://picsum.photos/400/300?random=7" alt="集体合照示例照片">
+              <div class="album-caption">
+                <h3>集体合照</h3>
+                <p>每一次站在一起，都更像一个整体。</p>
+              </div>
+            </a>
+            <a class="card album-card" href="https://picsum.photos/1200/900?random=8" data-fancybox="daily-album" data-caption="日常碎片">
+              <img src="https://picsum.photos/400/300?random=8" alt="日常碎片示例照片">
+              <div class="album-caption">
+                <h3>日常碎片</h3>
+                <p>那些不经意的小瞬间，后来都会变成大珍藏。</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="calendar-section" aria-labelledby="calendar-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">电子日历</p>
+            <h2 id="calendar-title">班级日程一眼看见</h2>
+            <p class="calendar-note">点击任意日期即可添加事件，新增内容会保存在本机浏览器 localStorage 中。</p>
+          </div>
+          <div class="card calendar-card">
+            <div id="calendar" aria-label="班级电子日历"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="messages" aria-labelledby="messages-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">留言板</p>
+            <h2 id="messages-title">把想说的话留在这里</h2>
+            <p class="message-note">正式部署到 GitHub Pages 后，请先完成 Giscus 仓库参数配置。</p>
+          </div>
+
+          <div class="card message-card giscus-wrap">
+            <!--
+              Giscus 配置，需替换：
+              1. 将 data-repo 改为你的 GitHub 用户名/仓库名。
+              2. 将 data-repo-id、data-category-id 改为 Giscus 页面生成的真实 ID。
+              3. 仓库需要开启 Discussions，并安装 Giscus App。
+            -->
+            <div class="giscus"></div>
+            <script src="https://giscus.app/client.js"
+                    data-repo="你的用户名/你的仓库名"
+                    data-repo-id="R_kgxxxxxxx"
+                    data-category="Announcements"
+                    data-category-id="DIC_kwxxxxx"
+                    data-mapping="pathname"
+                    data-strict="0"
+                    data-reactions-enabled="1"
+                    data-emit-metadata="0"
+                    data-input-position="top"
+                    data-theme="light"
+                    data-lang="zh-CN"
+                    crossorigin="anonymous"
+                    async>
+            </script>
+          </div>
+
+          <!--
+            备用纯本地留言功能，默认隐藏。
+            启用方法：将下方脚本中的 ENABLE_LOCAL_MESSAGE_BOARD 改为 true。
+            注意：本地留言仅保存在当前浏览器 localStorage 中，不会同步到 GitHub。
+          -->
+          <div class="card message-card local-board" id="local-board">
+            <h3>本地留言板</h3>
+            <p class="message-note">仅本地可见，适合 Giscus 配置完成前临时预览。</p>
+            <form class="form-grid" id="message-form">
+              <label class="field">
+                昵称
+                <input id="message-name" type="text" maxlength="24" placeholder="请输入昵称" autocomplete="name">
+              </label>
+              <label class="field">
+                留言内容
+                <textarea id="message-content" maxlength="240" placeholder="写下想对 AI2501 说的话"></textarea>
+              </label>
+              <button class="primary-button" type="submit">提交留言</button>
+            </form>
+            <ul class="message-list" id="message-list" aria-live="polite"></ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.15/locales/zh-cn.global.min.js"></script>
+  <script src="scripts/album-data.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
